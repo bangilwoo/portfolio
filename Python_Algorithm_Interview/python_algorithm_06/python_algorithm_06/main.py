@@ -19,18 +19,8 @@ lps = longestPalindrome.Solution()
 
 if __name__ == '__main__':
     print(ips.isPalindrome1("A man, a plan, a canal: Panama"))
-
-if __name__ == '__main__':
     print(rss.reverseString(["h", "e", "l", "l", "o"]))
-
-if __name__ == '__main__':
-    print(rls.reorderLogFiles(["dig1 8 1 5 1","let1 art can","dig2 3 6","let2 own kit dig","let3 art zero"]))
-
-if __name__ == '__main__':
-    print('\n', mcs.mostCommonWord(paragraph = "Bob hit a ball, the hit BALL flew far after it was hit.", banned = ["hit"]))
-
-if __name__ == '__main__':
-    print('\n', gas.groupAnagrams((["eat", "tea", "tan", "ate", "nat", "bat"])))
-
-if __name__ == '__main__':
+    print(rls.reorderLogFiles(["dig1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero"]))
+    print('\n', mcs.mostCommonWord(paragraph="Bob hit a ball, the hit BALL flew far after it was hit.", banned=["hit"]))
+    print('\n', gas.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
     print(lps.longestPalindrome("babad"))
